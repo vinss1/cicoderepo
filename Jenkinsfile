@@ -1,5 +1,6 @@
 #!/usr/bin/env groovy
  
-dotNetStandardPipeline {
+@Library('dotNetStandardPipeline') _ 
+stage('Hello') {
 	message = "Hello World!"
 }
