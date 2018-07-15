@@ -1,7 +1,8 @@
 #!/usr/bin/env groovy
  
 @Library('SharedciLibMaster') _
-	stage('Demo') {
-		 echo 'Hello World'
-		sayHello 'Dave'
+	job("TestDotNet") {
+    	steps {
+        shell 'echo Hello from new DotNet job'
+    }
 }
