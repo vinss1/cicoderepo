@@ -1,7 +1,7 @@
 #!/usr/bin/env groovy
  
-@Library("dotNetStandardPipeline") _
-dotNetStandardPipeline {
+@Library('SharedciLibMaster') _
+     {
 	message = "Hello World!"
 }
  
