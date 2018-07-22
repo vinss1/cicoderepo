@@ -2,6 +2,6 @@
  
 @Library('SharedciLibMaster') _
 	 {
-        shell 'echo Hello from new DotNet job'
+        'echo Hello from new DotNet job'
     }
 
